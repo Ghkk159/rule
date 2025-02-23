@@ -8,7 +8,7 @@ proxy-providers:
       url: https://www.gstatic.com/generate_204
       interval: 300
     proxy: 🟢 直连
-    url: "机场订阅"
+    url: "https://qifei.liuchangyong.us.kg/cm"
       
 # 用于下载订阅时指定UA
 global-ua: clash
@@ -47,12 +47,12 @@ sniffer:
   enable: true
   sniff:
     HTTP:
-      ports: [80, 8080-8880]
+      ports: [80， 8080-8880]
       override-destination: true
     TLS:
-      ports: [443, 8443]
+      ports: [443， 8443]
     QUIC:
-      ports: [443, 8443]
+      ports: [443， 8443]
   force-domain:
     - +.v2ex.com
   skip-domain:
